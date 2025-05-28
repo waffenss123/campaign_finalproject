@@ -2,13 +2,13 @@ package main
 
 import (
 	"campaign-services/config"
+	blog "campaign-services/gen/go/blog"
 	"campaign-services/repository"
 	"campaign-services/services"
 	"log"
 	"net"
 
 	"google.golang.org/grpc"
-
 )
 
 func main() {

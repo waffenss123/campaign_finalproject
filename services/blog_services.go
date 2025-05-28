@@ -1,7 +1,7 @@
 package services
 
 import (
-	"campaign-services/proto/go/blog/v1"
+	blog "campaign-services/gen/go/blog"
 	"campaign-services/models"
 	"campaign-services/repository"
 	"context"

@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package blog.v1;
 
+option go_package = "final_project/gen/go/blog/v1;blogv1";
+
 import "google/protobuf/timestamp.proto";
 import "google/protobuf/empty.proto";
 
